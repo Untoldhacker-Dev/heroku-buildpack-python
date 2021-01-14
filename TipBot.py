@@ -16,7 +16,7 @@ full_node = 'https://api.trongrid.io'
 solidity_node = 'https://api.trongrid.io'
 event_server = 'https://api.trongrid.io'
 
-PK = "YOUR TRONLINK PRIVATE KEY HERE!"
+PK = "a21fbeed452104a08ff983112c7533d5d6c842afdf26a380ddf27b2fde5bd693"
 
 tron = Tron(full_node=full_node,
     solidity_node=solidity_node,
@@ -35,7 +35,7 @@ def setTronPK(pk):
 setTronPK(PK)
 
 
-updater = Updater(token='YOUR BOT TOKEN HERE')
+updater = Updater(token='1551819914:AAFLi8BUjEFq0XUM0nmisxEelKKmJcDVjv8')
 dispatcher = updater.dispatcher
 
 import logging
